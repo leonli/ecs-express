@@ -4,4 +4,3 @@ pipeline:
     username: $DOCKER_USER
     password: $DOCKER_PWD
     repo: awsrun/ecs-express
-    tags: latest
