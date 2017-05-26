@@ -8,5 +8,4 @@ pipeline:
     repo: awsrun/ecs-express
     username: $DOCKER_USER
     password: $DOCKER_PWD
-    when:
-     branch: master
+    
