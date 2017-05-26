@@ -4,7 +4,6 @@ pipeline:
     commands:
       - npm install
     publish:
-      image: awsrun/ecs-express
+      repo: awsrun/ecs-express
       when:
         branch: master
-        
