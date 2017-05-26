@@ -3,7 +3,7 @@ pipeline:
     image: node:6.10.3-alpine
     commands:
       - npm install
-    publish:
-      repo: awsrun/ecs-express
-      when:
-        branch: master
+  publish:
+    repo: awsrun/ecs-express
+    when:
+     branch: master
