@@ -1,6 +1,12 @@
 pipeline:
-  docker:
+  build:
+    image: node:6.10.3-alpine
+    commands:
+      - npm install
+  publish:
     image: plugins/docker
+    repo: awsrun/ecs-express
     username: $DOCKER_USER
     password: $DOCKER_PWD
-    repo: awsrun/ecs-express
+    when:
+     branch: master
