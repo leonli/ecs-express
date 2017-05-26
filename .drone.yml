@@ -1,4 +1,5 @@
-docker:
+pipline:
+  docker:
     image: plugins/docker
     username: $DOCKER_USER
     password: $DOCKER_PWD
