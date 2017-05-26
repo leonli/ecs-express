@@ -7,3 +7,4 @@ pipeline:
       image: awsrun/ecs-express
       when:
         branch: master
+        
